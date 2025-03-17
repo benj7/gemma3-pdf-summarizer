@@ -18,14 +18,14 @@
 
 ## 🚀 Tech Stack
 
-| Component       | Technology |
-|----------------|------------|
-| **Frontend**   | [Streamlit](https://streamlit.io/) |
-| **Backend**    | [FastAPI](https://fastapi.tiangolo.com/) |
-| **LLM Model**  | [Ollama (Gemma 3)](https://ollama.com/) |
-| **PDF Parsing**| [PyMuPDF (fitz)](https://pymupdf.readthedocs.io/) |
-| **Chunking**   | [LangChain RecursiveCharacterTextSplitter](https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/) |
-
+| Component         | Technology |
+|------------------|------------|
+| **Frontend**     | [Streamlit](https://streamlit.io/) |
+| **Backend**      | [FastAPI](https://fastapi.tiangolo.com/) |
+| **LLM Platform** | [Ollama](https://ollama.com/) |
+| **LLM Model**    | [Google Gemma 3](https://developers.googleblog.com/en/introducing-gemma3/) |
+| **PDF Processing** | [PyMuPDF (fitz)](https://pymupdf.readthedocs.io/) |
+| **Text Chunking** | [LangChain RecursiveCharacterTextSplitter](https://python.langchain.com/docs/modules/data_connection/document_transformers/text_splitters/) |
 ---
 
 ## 🎬 Demo
