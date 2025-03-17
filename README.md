@@ -44,3 +44,56 @@
 ```bash
 git clone https://github.com/arjunprahulal/gemma3_pdf_summarizer.git
 cd gemma3_pdf_summarizer
+
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Start the Backend (FastAPI)
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+### 4️⃣ Start the Frontend (Streamlit)
+
+```bash
+streamlit run frontend.py
+```
+
+---
+
+## 📜 API Endpoints
+
+### 🔹 Health Check
+
+```http
+GET /health
+```
+
+Response:
+```json
+{"status": "ok", "message": "FastAPI backend is running!"}
+```
+
+### 🔹 Summarize
+Summarize an ArXiv Paper
+```
+POST /summarize_arxiv/
+```
+Request Body:
+```
+{
+  "url": "https://arxiv.org/pdf/2401.02385.pdf"
+}
+```
+Response:
+```
+{
+  "summary": "Structured summary of the research paper..."
+}
+```
