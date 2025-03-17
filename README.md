@@ -53,6 +53,23 @@ cd gemma3_pdf_summarizer
 pip install -r requirements.txt
 ```
 
+### 3️⃣ Install Ollama and Gemma 3 LLM
+First, install Ollama, which is required to run the Gemma 3 LLM locally.
+
+🔹 Install Ollama
+	•	MacOS/Linux:
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+	•	Windows: Download and install from Ollama’s official website.
+
+🔹 Download Gemma 3 Model
+
+```bash
+ollama pull gemma3:27b
+```
+
+
 ### 3️⃣ Start the Backend (FastAPI)
 
 ```bash
