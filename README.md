@@ -2,7 +2,7 @@
 
 🚀 **AI-Powered PDF Summarizer** is a tool that extracts and summarizes **research papers** from **ArXiv PDFs** using **Ollama (Gemma 3 LLM)**. The system provides structured, downloadable summaries to help researchers and professionals quickly grasp key findings.
 
-![UI Preview]([https://github.com/arjunprabhulal/gemma3_pdf_summarizer/blob/main/PDF_Summarizer.png]) 
+![PDF Summarizer UI](https://github.com/arjunprabhulal/gemma3_pdf_summarizer/raw/main/PDF_Summarizer.png)
 
 ---
 
